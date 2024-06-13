@@ -52,6 +52,9 @@ dependencies {
     testImplementation("com.ninja-squad:springmockk:3.0.1")
     testImplementation("org.mockito.kotlin:mockito-kotlin:3.2.0")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+    // H2 & JDBC(for H2)
+    runtimeOnly("com.h2database:h2")
 }
 
 kotlin {
